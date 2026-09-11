@@ -17,3 +17,11 @@ if(age<=21 and role=="Student"):
     print("eligible")
 else:
     print("not elgible")
+
+
+a=int(input())
+b=int(input())
+a=a+b
+b=a-b
+a=a-b
+print("After swap a=",a,"b=",b)
