@@ -22,7 +22,7 @@ while execute:
         case 5:
             a=int(input("a:"))
             while a>0:
-                a*=aa-1
+                a*=(a-1)
                 a-=1
             print(a)
         case 6:
