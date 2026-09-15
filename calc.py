@@ -1,5 +1,6 @@
-while True:
-    print("1Add 2Sub 3Mul 4Div 5Fact")
+execute=True
+while execute:
+    print("1:Add 2:Sub 3:Mul 4:Div 5:Fact 6:Exit")
     choice=int(input("Enter choice"))
     match choice:
         case 1:
@@ -21,6 +22,8 @@ while True:
         case 5:
             a=int(input("a:"))
             while a>0:
-                a*=a-1
+                a*=aa-1
                 a-=1
             print(a)
+        case 6:
+            execute=False
