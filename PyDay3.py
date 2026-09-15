@@ -15,11 +15,15 @@
 #     print(i)
 #     i+=1
 
-n=int(input("Enter no:"))
-i=0
-print("Even nums:")
-while i<n:
-    if(i%2!=0):
-        break
+# n=int(input("Enter no:"))
+# i=0
+# print("Even nums:")
+# while i<n:
+#     if(i%2!=0):
+#         break
+#     print(i)
+#     i+=1
+
+n=5
+for i in range(n):
     print(i)
-    i+=1
