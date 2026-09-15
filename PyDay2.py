@@ -25,3 +25,11 @@ elif d==7:
     print("sun")
 else:
     print("No such day")
+
+match d:
+    case 1:
+        print("a")
+    case 2:
+        print("b")
+    case 3:
+        print("c")
