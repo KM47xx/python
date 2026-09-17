@@ -1,6 +1,6 @@
 execute=True
 while execute:
-    print("1:Add 2:Sub 3:Mul 4:Div 5:Fact 6:Exit")
+    print("1:Add, 2:Sub, 3:Mul, 4:Div, 5:Fact, Type exit to stop")
     choice=int(input("Enter choice"))
     match choice:
         case 1:
@@ -25,5 +25,5 @@ while execute:
                 a*=(a-1)
                 a-=1
             print(a)
-        case 6:
+        case "exit":
             execute=False
